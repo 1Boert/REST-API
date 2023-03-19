@@ -25,3 +25,27 @@
 - NICHT:
   - Beschreibung wirtschaftliche und organisatorische Vorgaben
   - fachliche Qualität
+
+# REST
+- Representational State Transfer
+- stateless:
+  - Client immer alle informationen mitgeben und Kontext
+  - egal welcher Server, flexible Lastverteilung, da kein Zugriff auf History
+- dagegen stateful:
+  - z.b aktulle session wird auf server gespeichert
+  - nur informationen die für den aktullen request benötigt werden
+
+## RESTful Design
+- REST best practices, pattern
+  
+## constraints
+- Uniform Interface
+  - alle Clients dieselbe Schnittstelle
+  - alle Ressourcen eindeutig über URI identifizierbar
+  - angefragte Ressourcen werden als Ressourcenpräsentation geschickt (JSON, XML)
+  - selbstbeschreibende Nachrichten
+  - HATEOAS
+- Client-Server Architektur
+- zustandslose Kommunikation
+- cachable
+- mehrschichtiges System
