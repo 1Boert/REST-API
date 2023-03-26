@@ -1,7 +1,7 @@
 module.exports = {
     HOST: "localhost",
     PORT: "3306",
-    USER: "horst",
-    PASSWORD: "",
-    DB: "WarpShop"
+    USER: "root",
+    PASSWORD: "usbw",
+    DB: "warpshop_red"
 };

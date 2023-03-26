@@ -1,7 +1,9 @@
 const sqlQuery = (sqlQuery, params, dbcon) => {
-    return new Promise( (resolve, reject) => {
+    return new Promise((resolve, reject) => {
+
         dbcon.query(sqlQuery, params, (err, result) => {
-            if(err){
+            if (err) {
+                console.log("db query error");
                 reject(err);
             }else{
                 resolve(result);
